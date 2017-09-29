@@ -1,0 +1,11 @@
+SituationType,InputAndData,Meaning,OutputType,OutputWording
+1,Saluting,Saluting,1,
+2,Help_bot,Help to use bot,2,"I am here to help! To use me, just send me a picture of a QR code and I will read it for you.
+
+I will also store securely for you in case you need it again in the future!"
+3,See_past_items and PAST_PURCHASES_EXIST,See past QRs - already used bot,3,I have this information about your past scanned QRs
+4,See_past_items and !PAST_PURCHASES_EXIST,See past QRs - never used bot,4,Oh dear! It seems you did not scan QRs before. Send me a pic of a QR you want me to read
+5,Insult,Insulted / Try to fool bot,5,"I found that offensive! Please respect me, although I am a bot I have feelings ok!?"
+6,Not_understood booking,Did not understand,6,I am afraid I did not understand you. You can send me pics of QR codes or ask me for past scanned QRs.
+7,QR_valid,QR code scanned,7,Great! I got this information from the QR code:
+8,QR_invalid,Photo without identified QR,8,Oh dear! I could not identify that as a valid QR code. Please try again and make sure the picture is as clear as possible!

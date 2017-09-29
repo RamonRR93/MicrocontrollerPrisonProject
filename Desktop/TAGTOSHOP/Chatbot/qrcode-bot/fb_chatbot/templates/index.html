@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+ 
+<html lang="en">
+<meta charset="utf-8" />
+<title>QR Code bot</title>
+<style>
+.button {
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 32px 64px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: bold, Arial, sans-serif;
+    font-size: 100px;
+    cursor: pointer;
+}
+</style>
+<a href={{qrcode.url}} class="button">Click to send the previuos {{qrcode.style}} from your app</a>
+ 
+</body>
+     
+</html>
+
+
+
+
+
+
+
+

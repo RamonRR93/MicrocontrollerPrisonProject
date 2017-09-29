@@ -1,0 +1,7 @@
+rm db.sqlite3
+rm fb_chatbot/migrations/000*
+python manage.py makemigrations fb_chatbot
+python manage.py sqlmigrate fb_chatbot 0001
+python manage.py migrate
+
+
